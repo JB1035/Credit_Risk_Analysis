@@ -11,6 +11,32 @@ Once done, the performance of these models needs to be evaluated. The summary be
 
 ## Results
 
+**Resampling:** 
 
+Random Sampler Score = 0.65
+
+![This is an image](Images/random.png)
+
+SMOTE (Oversampling) Sampler Score = 0.66
+
+![This is an image](Images/smote.png)
+
+Cluster Centroids Score (Undersampling)= 0.54
+
+![This is an image](Images/cluster.png)
+
+SMOTEENN Score (Combination Over/Under Sampling) = 0.61
+
+![This is an image](Images/smoteenn.png)
+
+**Ensemble**
+
+RandomForest Score = 0.78
+
+![This is an image](Images/randomforest.png)
+
+EasyEnsemble Score = 0.93
+
+![This is an image](Images/.png)
 
 ## Summary
