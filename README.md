@@ -41,6 +41,6 @@ Once done, the performance of these models needs to be evaluated. The summary be
 
 ## Summary
 
-The EasyEnsemble model provided the highest accuracy score, howevwer it cannot be considered a reliable model because the prediction for high-risk loans is low and many applications could be wrongly classified. Overall across all models the performance for high-risk loans was not well executed which can be contigent on the amount of data collected. There is also a big difference between the amount of data for low-risk and high-risk. When it came to undersampling the data using the Cluster Centroids method, there was no improvement in the accuracy score.
+The EasyEnsemble model provided the highest accuracy score, however it cannot be considered a reliable model because the prediction for high-risk loans is low and many applications could be wrongly classified. Overall across all models the performance for high-risk loans was not well executed which can be contigent on the amount of data collected. There is also a big difference between the amount of data for low-risk and high-risk. When it came to undersampling the data using the Cluster Centroids method, there was no improvement in the accuracy score.
 
 
