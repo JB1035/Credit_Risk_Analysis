@@ -13,30 +13,34 @@ Once done, the performance of these models needs to be evaluated. The summary be
 
 **Resampling:** 
 
-Random Sampler Score = 0.65
+* Random Sampler Score = 0.65
 
 ![This is an image](Images/random.png)
 
-SMOTE (Oversampling) Sampler Score = 0.66
+* SMOTE (Oversampling) Sampler Score = 0.66
 
 ![This is an image](Images/smote.png)
 
-Cluster Centroids Score (Undersampling)= 0.54
+* Cluster Centroids Score (Undersampling)= 0.54
 
 ![This is an image](Images/cluster.png)
 
-SMOTEENN Score (Combination Over/Under Sampling) = 0.61
+* SMOTEENN Score (Combination Over/Under Sampling) = 0.61
 
 ![This is an image](Images/smoteenn.png)
 
 **Ensemble**
 
-RandomForest Score = 0.78
+* RandomForest Score = 0.78
 
 ![This is an image](Images/randomforest.png)
 
-EasyEnsemble Score = 0.93
+* EasyEnsemble Score = 0.93
 
-![This is an image](Images/.png)
+![This is an image](Images/easy.png)
 
 ## Summary
+
+The EasyEnsemble model provided the highest accuracy score, howevwer it cannot be considered a reliable model because the prediction for high-risk loans is low and many applications could be wrongly classified. Overall across all models the performance for high-risk loans was not well executed which can be contigent on the amount of data collected. There is also a big difference between the amount of data for low-risk and high-risk. When it came to undersampling the data using the Cluster Centroids method, there was no improvement in the accuracy score.
+
+
